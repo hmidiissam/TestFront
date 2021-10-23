@@ -1,0 +1,165 @@
+
+input {
+	max-width: 240px;
+	margin: auto;
+}
+
+
+body {
+	font-family: "Inter";
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.container {
+	max-width: 1440px;
+}
+
+.block1,
+.block2 {
+	padding-top: 50px;
+}
+
+.article1 {
+	margin-left: 120px;
+	margin-bottom: 50px;
+	max-width: 560px;
+}
+
+.article2 {
+	display: flex;
+	margin-left: 65px;
+	margin-bottom: 40px;
+}
+
+.article3 {
+	max-width: 420px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.article2 .date,
+.article3 .date {
+	color: #E3B2AE;
+}
+
+.article2 .detail {
+	margin-right: 16px;
+	width: calc(100% - 155px);
+}
+
+.article1 img {
+	margin-bottom: 16px;
+}
+
+.titre1 {
+	font-size: 23px;
+	line-height: 33px;
+	color: #000;
+}
+
+.titre2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25.5px;
+	margin-bottom: 9px;
+}
+
+.titre3 {
+	font-size: 26px;
+	text-align: center;
+	line-height: 33px;
+}
+
+.article3 h3 {
+	text-align: center;
+}
+
+.rutrum {
+	font-size: 14px;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.date {
+	float: right;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+	color: transparent;
+}
+
+.navbar {
+	width: 50%;
+}
+
+#navbar-close {
+	color: #000;
+}
+
+.social-media {
+	margin-left: 10px;
+}
+
+.social-media a {
+	color: #000;
+}
+
+.social-media i {
+	width: 20px;
+	height: 20px;
+}
+
+.nav-link {
+	font-size: 24px;
+}
+
+.navbar-nav {
+	margin-left: 80px;
+}
+
+.block1 {
+	background-color: #E3B2AE;
+}
+
+.stickIt {
+	position: sticky;
+	top: 0px;
+}
+
+.bottom-newsletter {
+	margin-bottom: 440px!important;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 25px;
+	padding: 0px 25px;
+}
+
+.newsletter {
+	height: 400px;
+	background-color: #FFFF93;
+	z-index: 99;
+	right: 0;
+	left: 0;
+	position: absolute;
+	top: 1360px;
+}
+.contenu button {
+	background-color: black;
+	color: white;
+	margin-left: 145px;
+}
+.contenu {
+	top: 140px;
+	position: relative;
+	text-align: center;
+}
